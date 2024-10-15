@@ -1,5 +1,7 @@
 # Godot 101 – Game Engine Foundations
 
+[![Main Build Pipeline](https://github.com/ikostan/intro_to_godot_by_zenva/actions/workflows/lint_test_build_pipeline.yml/badge.svg)](https://github.com/ikostan/intro_to_godot_by_zenva/actions/workflows/lint_test_build_pipeline.yml)
+
 ## Intro to Godot gamedev by Zenva
 
 ### Recommended Requirements
