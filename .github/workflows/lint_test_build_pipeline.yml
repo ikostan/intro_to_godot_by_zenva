@@ -9,7 +9,7 @@ on:  # yamllint disable-line rule:truthy
 jobs:
   markdown-lint:
     name: Markdown Lint
-    uses: ikostan/intro_to_godot_by_zenva/.github/workflows/markdown-lint.yml@master
+    uses: ikostan/intro_to_godot_by_zenva/.github/workflows/markdown-lint.yml@main
   yaml-lint:
     name: YAML Lint
-    uses: ikostan/intro_to_godot_by_zenva/.github/workflows/yamllint.yml@master
+    uses: ikostan/intro_to_godot_by_zenva/.github/workflows/yamllint.yml@main
