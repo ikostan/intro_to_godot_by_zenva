@@ -26,4 +26,4 @@ You will learn how to:
 - Create scripts
 - Use variables in GDScript
 
-  Source: [Godot 101 – Game Engine Foundations](https://academy.zenva.com/course/godot-4-101-game-engine-foundations/)
+Source: [Godot 101 – Game Engine Foundations](https://academy.zenva.com/course/godot-4-101-game-engine-foundations/)
