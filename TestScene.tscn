@@ -6,10 +6,10 @@
 position = Vector2(8.79602, 0.143051)
 
 [node name="Player" parent="." instance=ExtResource("1_eb05g")]
-position = Vector2(14.204, 74.8569)
+position = Vector2(123.204, 89.8569)
 
 [node name="Player2" parent="." instance=ExtResource("1_eb05g")]
-position = Vector2(137.204, 258.857)
+position = Vector2(248.204, 286.857)
 
 [node name="Player3" parent="." instance=ExtResource("1_eb05g")]
-position = Vector2(295.204, 96.8569)
+position = Vector2(439.204, 200.857)
