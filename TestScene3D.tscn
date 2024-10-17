@@ -16,6 +16,8 @@
 mesh = SubResource("BoxMesh_bdw4l")
 
 [node name="SnowMan" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.689314, -0.237204, -0.687144)
+metadata/_edit_group_ = true
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="SnowMan"]
 transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, -2.5, 1.5, 2.5)
