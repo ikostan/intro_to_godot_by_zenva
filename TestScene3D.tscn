@@ -1,8 +1,34 @@
-[gd_scene load_steps=2 format=3 uid="uid://bi0jxdg37w3dg"]
+[gd_scene load_steps=6 format=3 uid="uid://bi0jxdg37w3dg"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_bdw4l"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_nglwf"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_bnjqj"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_dywra"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_vmp1w"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("BoxMesh_bdw4l")
+
+[node name="SnowMan" type="Node3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="SnowMan"]
+transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, -2.5, 1.5, 2.5)
+mesh = SubResource("SphereMesh_nglwf")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="SnowMan"]
+transform = Transform3D(0.633307, 0, 0, 0, 0.633307, 0, 0, 0, 0.633307, -2.5, 1.1, 2.5)
+mesh = SubResource("SphereMesh_bnjqj")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="SnowMan"]
+transform = Transform3D(1.14957, 0, 0, 0, 1.14957, 0, 0, 0, 1.14957, -2.5, 0.4, 2.5)
+mesh = SubResource("SphereMesh_dywra")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="SnowMan"]
+transform = Transform3D(-2.47269e-09, -0.388909, -0.0565685, 0.08, -2.40413e-08, 0, -2.47269e-09, -0.388909, 0.0565685, -2.5, 1.19, 2.5)
+mesh = SubResource("CylinderMesh_vmp1w")
