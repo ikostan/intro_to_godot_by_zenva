@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dfej1r3xrw5i5"]
+[gd_scene load_steps=3 format=3 uid="uid://dfej1r3xrw5i5"]
 
 [ext_resource type="Texture2D" uid="uid://w8yuf0e4t21" path="res://Sprites/Player.png" id="1_883kq"]
+[ext_resource type="PackedScene" uid="uid://bboe3big5h6b2" path="res://sprite_2d.tscn" id="2_udcr0"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -18,3 +19,15 @@ texture = ExtResource("1_883kq")
 modulate = Color(0.825634, 0.387333, 0.452259, 1)
 position = Vector2(-100, 100)
 texture = ExtResource("1_883kq")
+
+[node name="Sprite2D" parent="." instance=ExtResource("2_udcr0")]
+position = Vector2(250, -158)
+
+[node name="Sprite2D2" parent="." instance=ExtResource("2_udcr0")]
+position = Vector2(130, -82)
+
+[node name="Sprite2D3" parent="." instance=ExtResource("2_udcr0")]
+position = Vector2(483, -133)
+
+[node name="Sprite2D4" parent="." instance=ExtResource("2_udcr0")]
+position = Vector2(342, -76)
