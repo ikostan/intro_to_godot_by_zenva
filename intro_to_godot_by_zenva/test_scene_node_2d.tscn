@@ -4,5 +4,10 @@
 
 [node name="Node2D" type="Node2D"]
 
+[node name="Player2" type="Sprite2D" parent="."]
+position = Vector2(-50, -50)
+texture = ExtResource("1_883kq")
+
 [node name="Player" type="Sprite2D" parent="."]
+position = Vector2(50, 50)
 texture = ExtResource("1_883kq")
