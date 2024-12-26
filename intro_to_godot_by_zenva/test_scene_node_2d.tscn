@@ -5,15 +5,16 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="PlayerOrange" type="Sprite2D" parent="."]
-position = Vector2(50, 50)
+modulate = Color(0.921569, 0.760784, 0.356863, 1)
+position = Vector2(0, 100)
 texture = ExtResource("1_883kq")
 
 [node name="PlayerGreen" type="Sprite2D" parent="."]
 modulate = Color(9.62615e-07, 0.971663, 0.972016, 1)
-position = Vector2(-50, -50)
+position = Vector2(-100, 0)
 texture = ExtResource("1_883kq")
 
 [node name="PlayerRead" type="Sprite2D" parent="."]
 modulate = Color(0.825634, 0.387333, 0.452259, 1)
-position = Vector2(-50, 50)
+position = Vector2(-100, 100)
 texture = ExtResource("1_883kq")
