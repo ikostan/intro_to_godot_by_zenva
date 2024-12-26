@@ -10,7 +10,6 @@ config_version=5
 
 [application]
 
-config/name="IntroToGodot"
-run/main_scene="res://node_2d.tscn"
+config/name="intro_to_godot_by_zenva"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
